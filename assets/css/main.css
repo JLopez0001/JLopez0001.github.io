@@ -2451,7 +2451,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-bottom: 0;
+		margin-bottom: 10px;
 	}
 
 		#main section:first-of-type {
@@ -2609,7 +2609,7 @@ input, select, textarea {
 			.carousel article.loading {
 				opacity: 0;
 			}
-			
+
 			.project-img{
 				margin: auto;
 				width: 230px !important;
@@ -2633,6 +2633,27 @@ input, select, textarea {
 			.carousel article p {
 				text-align: center;
 			}
+/* Main */
+	.main-project-container{
+		margin: 100px;
+	}
+	.landing-img{
+		float: left;
+		height: 400px;
+		margin-top: 20px;
+	}
+
+	.landing-img-desk{
+		height: 300px;
+		margin-top: 40px;
+
+	}
+
+	.landing-img-right{
+		float: right;
+		height: 400px;
+		margin-top: 20px;
+	}
 
 /* Wide */
 
