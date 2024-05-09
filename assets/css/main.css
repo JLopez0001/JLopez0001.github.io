@@ -2507,9 +2507,9 @@ input, select, textarea {
 				}
 
 /* Carousel */
-
 	.carousel {
 		position: relative;
+		display: flex;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
@@ -2609,15 +2609,26 @@ input, select, textarea {
 			.carousel article.loading {
 				opacity: 0;
 			}
+			
+			.project-img{
+				margin: auto;
+				width: 230px !important;
+				height: 400px;
+			}
 
+			.project-img-desk{
+				width: 330px !important;
+				height: 250px;
+			}
 			.carousel article .image {
 				position: relative;
 				left: -1em;
 				top: 0;
-				width: auto;
+				width: 100%;
 				margin-right: -2em;
 				margin-bottom: 3em;
 			}
+
 
 			.carousel article p {
 				text-align: center;
