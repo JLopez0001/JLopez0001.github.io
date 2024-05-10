@@ -1,0 +1,105 @@
+body.calm-space-page #header {
+    height: 100vh;
+    min-height: 40em;
+}
+
+    body.calm-space-page #header h1 {
+        font-size: 4em;
+    }
+
+    body.calm-space-page #header:after {
+        content: '';
+        background: #1C0920;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        -moz-transition: opacity 2.5s ease-in-out;
+        -webkit-transition: opacity 2.5s ease-in-out;
+        -ms-transition: opacity 2.5s ease-in-out;
+        transition: opacity 2.5s ease-in-out;
+        -moz-transition-delay: 0.5s;
+        -webkit-transition-delay: 0.5s;
+        -ms-transition-delay: 0.5s;
+        transition-delay: 0.5s;
+    }
+
+body.calm-space-page.is-preload #header:after {
+    opacity: 1;
+}
+
+/* Header */
+
+#calm-space-header {
+    position: relative;
+    background-image: url("../../assets/css/images/calm-space/calm-space-header.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 7.5em 0 2em 0;
+    cursor: default;
+}
+
+    #calm-space-header:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+    }
+
+    #calm-space-header .inner {
+        position: relative;
+        z-index: 1;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #calm-space-header header {
+        display: inline-block;
+    }
+
+        #calm-space-header header > p {
+            font-size: 1.25em;
+            margin: 0;
+        }
+
+    #calm-space-header h1 {
+        color: #fff;
+        font-size: 3em;
+        line-height: 1em;
+    }
+
+        #calm-space-header h1 a {
+            color: inherit;
+        }
+
+    #calm-space-header hr {
+        top: 1.5em;
+        margin-bottom: 3em;
+        border-bottom-color: rgba(192, 192, 192, 0.35);
+        box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
+    }
+
+        #calm-space-header hr:before, #calm-space-header hr:after {
+            background: rgba(192, 192, 192, 0.35);
+        }
+
+    #calm-space-header footer {
+        margin: 1em 0 0 0;
+    }
+
+.project-aside-right{
+    float: left;
+}
+
+.project-aside-img{
+    height: 550px;
+    width: 950px;
+}
+    
