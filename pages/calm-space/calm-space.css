@@ -103,3 +103,11 @@ body.calm-space-page.is-preload #header:after {
     width: 950px;
 }
     
+.video-walkthrough {
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
