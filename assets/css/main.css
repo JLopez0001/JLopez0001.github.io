@@ -2097,6 +2097,17 @@ input, select, textarea {
 				background: #3B353C;
 			}
 
+/* Video */
+.video-walkthrough {
+    position: relative;
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+}
+
+
 /* Post */
 
 	.post.stub {
