@@ -2173,6 +2173,10 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+		.style1{
+			padding: 20px;
+		}
+
 /* Header */
 
 	#header {
@@ -2220,17 +2224,6 @@ input, select, textarea {
 			#header h1 a {
 				color: inherit;
 			}
-
-		#header .button {
-			display: inline-block;
-			border-radius: 100%;
-			width: 4.5em;
-			height: 4.5em;
-			line-height: 4.5em;
-			text-align: center;
-			font-size: 1.25em;
-			padding: 0;
-		}
 
 		#header hr {
 			top: 1.5em;
