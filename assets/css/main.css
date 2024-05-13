@@ -185,9 +185,9 @@ input, select, textarea {
 		margin-bottom: 1em;
 	}
 
-	p {
+	/* p {
 		text-align: justify;
-	}
+	} */
 
 	br.clear {
 		clear: both;
@@ -1787,8 +1787,11 @@ input, select, textarea {
 	}
 
 		.image img {
+			object-fit: contain;
 			display: block;
 			width: 100%;
+			height: 100%;
+			max-height: 675px;
 		}
 
 		.image.fit {
@@ -1800,6 +1803,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
+			/* object-fit: contain; */
 		}
 
 		.image.left {
@@ -2191,8 +2195,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
+		background-image: url("/Users/johnlopez/Downloads/html5up-helios/assets/css/images/background.png");
 		position: relative;
-		background-image: url("./images/background.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2245,6 +2249,7 @@ input, select, textarea {
 
 			#header hr:before, #header hr:after {
 				background: rgba(192, 192, 192, 0.35);
+				
 			}
 
 		#header footer {
@@ -2262,7 +2267,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background-color: black;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2596,6 +2601,7 @@ input, select, textarea {
 			}
 
 		.carousel .reel {
+			display: flex;
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
@@ -2615,6 +2621,18 @@ input, select, textarea {
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
+			display: flex;
+    		flex-direction: column;
+		}
+		.calmSpace {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+		}
+		.justComedy {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
 		}
 
 			.carousel article.loading {
@@ -2623,12 +2641,9 @@ input, select, textarea {
 
 			.project-img{
 				margin: auto;
-				width: 230px !important;
-				height: 400px;
 			}
 
 			.project-img-desk{
-				width: 330px !important;
 				height: 250px;
 			}
 			.carousel article .image {
@@ -2666,6 +2681,16 @@ input, select, textarea {
 		margin-top: 20px;
 	}
 
+	#ui-experience{
+		margin:20px
+	}
+
+/* TouchStone */
+.imp-mobile{
+	display: flex;
+	justify-content: center;
+}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2684,10 +2709,17 @@ input, select, textarea {
 			}
 
 				.carousel .reel {
+					display: flex;
+					flex-direction: row;
 					padding: 0 1.5em 0 1.5em;
 				}
 
 				.carousel article {
+					min-width: 230px;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+					align-items: center;
 					width: 18em;
 					margin: 0 1.25em 0 0;
 				}
@@ -2697,6 +2729,8 @@ input, select, textarea {
 /* Normal */
 
 	@media screen and (max-width: 1280px) {
+
+
 
 		/* Basic */
 
@@ -2716,6 +2750,7 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll;
+				/* background-image: url("../../assets/css/images/background.png"); */
 			}
 
 				#header .inner {
@@ -2833,6 +2868,7 @@ input, select, textarea {
 
 			.image.featured {
 				margin: 0 0 2em 0;
+				object-fit: contain;
 			}
 
 			.image.left {
