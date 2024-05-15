@@ -2195,7 +2195,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-image: url("/Users/johnlopez/Downloads/html5up-helios/assets/css/images/background.png");
+		background-image: url("../css/images/background.png");
 		position: relative;
 		background-size: cover;
 		background-position: center center;
