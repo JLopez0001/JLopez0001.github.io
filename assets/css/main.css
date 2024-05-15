@@ -1730,7 +1730,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-200 > * {
-						padding: 40px 0 0 40px;
+						padding: 0 0 0 40px;
 					}
 
 					.row.gtr-200.gtr-uniform {
@@ -2466,7 +2466,7 @@ input, select, textarea {
 	}
 
 		#main section:first-of-type {
-			padding-top: 2em;
+			padding-top: 1em;
 		}
 
 /* Footer */
