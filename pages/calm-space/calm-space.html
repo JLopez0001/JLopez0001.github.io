@@ -62,7 +62,13 @@
 									<h3>Idea behind Calm Space</h3>
 								</header>
 								<p>
-									I created Calm Space out of a need I saw firsthand as a quality assurance specialist working with a EMR system. The existing system's interface was confusing for providers, causing providers to overlook critical alerts, like note rejections, which could delay patient care for days. Driven by the desire to streamline this experience, Calm Space was born—a system where clarity and ease of use empower providers and improve overall healthcare delivery.
+									Calm Space was conceived from a pressing need I identified during my tenure as a quality assurance specialist in health tech. 
+								</p>
+								<p>
+									Working with existing electronic medical records (EMR) systems, I observed that their complex interfaces led providers to miss crucial alerts, such as note rejections, resulting in significant delays in patient care.
+								</p>
+								<p>
+									Motivated to enhance this scenario, I developed Calm Space—a system designed with clarity and simplicity to empower healthcare providers and significantly improve the efficiency of healthcare delivery.
 								</p>
 							</section>
 
@@ -115,9 +121,10 @@
 													<h3>Getting Started</h3>
 												</header>
 												<p>
-													First the user will need to sign in with their unique username and password. If they do not have an account then they will need to register. 
+													To begin using Calm Space, users will first need to sign in with their unique username and password. If they do not have an account, they will be prompted to register, enabling them to access and utilize the full features of the platform.
 												</p>
 												<hr>
+											</section>
 										</div>
 										<div class="col-8 col-12-mobile imp-mobile" id="content">
 											<a href="#" class="image featured"><img src="../../assets/css/images/calm-space/calm-space-login.png" alt="login"></a>
@@ -144,7 +151,7 @@
 													<h3><a href="#">Therapist home page</a></h3>
 												</header>
 												<p>
-													Once the therapist signs in they will be greeted with their patients caseload. The patient card will hold the patient basic demographic informaiton as well as a link to the patients chart.
+													Upon signing in, therapists are immediately presented with their patient caseload. Each patient card displays essential demographic information and includes a direct link to the patient's chart, ensuring efficient access to vital data.
 												</p>
 											</section>
 											<hr>
@@ -166,9 +173,10 @@
 													<h3>Creating a patient</h3>
 												</header>
 												<p>
-													In order to create a patient I wanted the UI to be as simple as possible with just the basic demographic information of the patient needed.
+													In designing the process to create a patient profile, my priority was simplicity. The user interface requires only the essential demographic information needed for each patient, streamlining the process and enhancing usability.
 												</p>
 												<hr>
+											</section>
 										</div>
 										<div class="col-8 col-12-mobile imp-mobile" id="content">
 											<a href="#" class="image featured"><img src="../../assets/css/images/calm-space/calm-space-create-patient.png" alt="create patient"></a>
@@ -195,7 +203,7 @@
 													<h3><a href="#">Patient Chart</a></h3>
 												</header>
 												<p>
-													When the therapist wants to either add a note or diagnosis they will be able to see all of the patients notes/status as well as appointment times and type of service.
+													Within the patient chart, therapists can effortlessly add notes or diagnoses and view all existing notes, patient status updates, appointment times, and types of service. This comprehensive overview ensures that therapists have all necessary information readily available to enhance patient care.
 												</p>
 											</section>
 											<hr>
@@ -217,15 +225,16 @@
 													<h3>Creating a note</h3>
 												</header>
 												<p>
-													In order for a therapist to sign a note and send it to QA for review they will need to input what occured in the session as well as what goals were tackled.
+													To create and submit a note for QA review, therapists are required to detail the proceedings of the session, including the goals addressed. This documentation is essential for maintaining comprehensive patient records.
 												</p>
-												<p> 
-													Method of service is cruicial to determine how the session was conducted. 
+												<p>
+													Additionally, the method of service must be specified to clarify how the session was conducted, which is crucial for accurate record-keeping.
 												</p>
-												<p> 
-													Lastly in order to sign the note, the therapist must re-input the patient unique id, the QA provider code, and their own provider ID.
+												<p>
+													Finally, for authentication and security, therapists must re-enter the patient's unique ID, the QA provider code, and their own provider ID before signing and submitting the note.
 												</p>
 												<hr>
+											</section>
 										</div>
 										<div class="col-8 col-12-mobile imp-mobile" id="content">
 											<a href="#" class="image featured"><img src="../../assets/css/images/calm-space/create-note.png" alt="create note"></a>
@@ -252,7 +261,7 @@
 													<h3><a href="#">QA task page</a></h3>
 												</header>
 												<p>
-													Upon submission of the note, it will go to the QA task box to determine if the note needs to be rejected or approved.
+													After a note is submitted, it automatically appears in the QA task box. Here, QA specialists evaluate whether the note meets all necessary standards and decide if it should be approved or if revisions are required.
 												</p>
 											</section>
 											<hr>
@@ -274,12 +283,16 @@
 													<h3>Reviewing a note</h3>
 												</header>
 												<p>
-													Depending if the note passes the criteria needed based on the Department of Mental Health. The QA specialist can approve the note or reject it.
+													A note undergoes a thorough review by QA specialists who assess it against the criteria set by the Department of Mental Health.
 												</p>
 												<p>
-													If the note is rejected the QA specialist will need to provide a reason for the rejection and then the note will be sent back to the therapist to make corrections.
+													Depending on compliance with these standards, the note may be approved or rejected.
+												</p>
+												<p>
+													If a note is rejected, the QA specialist must provide a specific reason for the rejection. This feedback is then sent back to the therapist, who is required to make the necessary corrections and resubmit the note.
 												</p>
 												<hr>
+											</section>
 										</div>
 										<div class="col-8 col-12-mobile imp-mobile" id="content">
 											<a href="#" class="image featured"><img src="../../assets/css/images/calm-space/note-review.png" alt="note review"></a>
@@ -288,7 +301,7 @@
 								</div>
 							</div>
 						</article>
-
+						<br/>
 						<article id="main" class="special">
 							<header id="challenges">
 								<h2><a href="#">Challenges</a></h2>
@@ -298,7 +311,7 @@
 									<h3><strong>Major Challenge on this Project</strong</h3>
 								</header>
 								<p>
-									The main challenge I encountered on this project was the feedback aspect of sending rejected notes back to the therapist that wrote the note. Along side that, having the status change upon if the note was rejected,pending, or approved. But luckily with my experience in QA I had the general idea on how to go about tackling this project. It was also great to have a visual representation of a working EMR system so I can reference.
+									The primary challenge in this project was managing the feedback process for rejected notes and accurately updating the status to reflect whether notes were rejected, pending, or approved. Fortunately, my background in quality assurance provided a solid foundation for addressing these challenges. Additionally, having access to a visual representation of a functioning electronic medical records (EMR) system was invaluable, offering a clear reference point for developing and refining our system.
 								</p>
 							</section>
 							
@@ -307,7 +320,7 @@
 									<h3><strong>Models</strong</h3>
 								</header>
 								<p>
-									Since I used MongoDB and Mongoose for my database, I underestimated the difficulty of determining what should go in the schema and how many models I need. I determined the best approach was to create 3 models, notes, patients, and users.
+									Utilizing MongoDB and Mongoose for our database presented a significant challenge in defining the appropriate schema and deciding the number of models necessary for efficient data management. After careful consideration, I concluded that creating three distinct models—notes, patients, and users—was the most effective approach to support our application's functionality and data integrity.
 								</p>
 							</section>
 						</article>
