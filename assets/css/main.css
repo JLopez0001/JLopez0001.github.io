@@ -1791,6 +1791,7 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			height: 100%;
+			margin-top: 20px;
 			max-height: 675px;
 		}
 
@@ -2523,6 +2524,10 @@ input, select, textarea {
 				}
 
 /* Carousel */
+
+	#project-name{
+		color: #df7366;
+	}
 	.carousel {
 		position: relative;
 		display: flex;
@@ -3123,7 +3128,11 @@ input, select, textarea {
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				padding: 2.2em 1em 1.1em 1em;
+			}
+
+			#section-divider{
+				margin: 20px 20px  ;
 			}
 
 		/* Header */
